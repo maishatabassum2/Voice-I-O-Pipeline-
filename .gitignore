@@ -1,0 +1,38 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.Python
+.DS_Store
+Thumbs.db
+*.mp3
+*.wav
+*.webm
+poetry.lock
+```
+
+5. **Save** (Ctrl+S / Cmd+S)
+
+---
+
+### **Step 2: Create `.env.example` File**
+
+1. Right-click → **New File**
+2. Name it: `.env.example`
+3. **Paste this inside:**
+```
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+4. **Save**
+
+---
+
+### **Step 3: Make Sure Your Real `.env` File Has Your Key**
+
+Your `.env` file should look like:
+```
+OPENAI_API_KEY=sk-proj-your-actual-key-here
